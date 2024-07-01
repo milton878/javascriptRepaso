@@ -112,3 +112,36 @@ console.log(totalCarrito);
 numeros.sort((a, b)=> a - b);
 console.log(numeros);
 
+// ***** MATH *****
+
+const numeroDecimal1 = 1.25;
+const numeroDecimal2 = 1.75;
+
+//numero minimo del listado que le paso
+console.log(Math.min(34,54,32,1));
+
+//numero maximo del listado que le paso
+console.log(Math.max(34,54,32,1));
+
+// ceil() retornar el numero entero redondeado para arriba
+console.log(Math.ceil(numeroDecimal1));
+
+// floor() retornar el numero entero redondeado para abajo
+console.log(Math.floor(numeroDecimal2));
+
+// round() retornar si es mayor a la mitad para arriba y si es menor para abajo
+console.log(Math.round(1.4));
+console.log(Math.round(1.7));
+
+//--random()=> retornar un numero aleatorio entre dos parametros
+console.log(Math.random()); //num aleatorio entre 0 y 1
+
+console.log(Math.round (Math.random()));//redondea numero aletorio
+
+//ejemplo numero aleatorio entre 0 y 50
+
+console.log(Math.round (Math.random() * 50));
+
+//numeros entre 20 y 70 (porque va a arrancar en 20 y le terminar en 70= 50+20)
+
+console.log(Math.round(Math.random()*50 + 20));
